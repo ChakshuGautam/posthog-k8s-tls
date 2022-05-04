@@ -1,0 +1,15 @@
+cloud: "do"
+ingress:
+  hostname: telemetry.shikshaplatform.io
+  nginx:
+    enabled: true
+cert-manager:
+  enabled: true
+ingress-nginx:
+  controller:
+    config:
+      use-proxy-protocol: true
+    service:
+      annotations:
+        service.beta.kubernetes.io/do-loadbalancer-hostname: telemetry.shikshaplatform.io
+        service.beta.kubernetes.io/do-loadbalancer-enable-proxy-protocol: "true"
