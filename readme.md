@@ -1,4 +1,4 @@
-# PostHog TSL Setup
+# PostHog TLS Setup
 
 ## Domain Management on Digital Ocean
 [Setup DNS on DO](https://docs.digitalocean.com/products/networking/dns/quickstart/) and verify them [here](https://dnschecker.org/)
