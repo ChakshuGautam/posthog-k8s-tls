@@ -3,8 +3,6 @@
 ## Domain Management on Digital Ocean
 [Setup DNS on DO](https://docs.digitalocean.com/products/networking/dns/quickstart/) and verify them [here](https://dnschecker.org/).
 
-## Setup Mailing Account
-Create a mailing account on [Mailgun](https://www.mailgun.com/) and setup the domain created above [here](https://help.mailgun.com/hc/en-us/articles/360026833053-Domain-Verification-Walkthrough). Verify by sending an email.
 
 ## Update Values
 1. Update domain names in `values.yaml` in [L3](https://github.com/ChakshuGautam/posthog-k8s-tls/blob/37e2e0d5f1259aa85c85390866188fbcc29e638e/values.yaml#L3) and [L13](https://github.com/ChakshuGautam/posthog-k8s-tls/blob/37e2e0d5f1259aa85c85390866188fbcc29e638e/values.yaml#L13).
@@ -23,3 +21,8 @@ kubectl apply -f cluster-issuer.yaml
 ```sh
 bash getHost.sh
 ```
+
+## Setup Mailing Account
+Create a mailing account on [Mailgun](https://www.mailgun.com/) and setup the domain created above [here](https://help.mailgun.com/hc/en-us/articles/360026833053-Domain-Verification-Walkthrough). Verify by sending an email.
+
+[Setup the email](https://posthog.com/docs/self-host/configure/email) on the Posthog dashboard. (Needed for invites and posthog notifications to admins)
