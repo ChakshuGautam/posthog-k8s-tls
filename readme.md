@@ -1,7 +1,7 @@
 # PostHog TLS Setup
 
 ## Domain Management on Digital Ocean
-[Setup DNS on DO](https://docs.digitalocean.com/products/networking/dns/quickstart/) and verify them [here](https://dnschecker.org/)
+[Setup DNS on DO](https://docs.digitalocean.com/products/networking/dns/quickstart/) and verify them [here](https://dnschecker.org/).
 
 ## Setup Mailing Account
 Create a mailing account on [Mailgun](https://www.mailgun.com/) and setup the domain created above [here](https://help.mailgun.com/hc/en-us/articles/360026833053-Domain-Verification-Walkthrough). Verify by sending an email.
