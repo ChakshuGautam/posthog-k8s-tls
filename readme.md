@@ -1,5 +1,8 @@
 # PostHog TSL Setup
 
+## Update Values
+1. Update domain names in `values.yaml`.
+
 ## Setting up TLS   
 ```sh
 helm repo add posthog https://posthog.github.io/charts-clickhouse/
